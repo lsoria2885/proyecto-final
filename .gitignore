@@ -1,33 +1,31 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Directorios de compilación
+/target/
+/bin/
+/out/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Configuración de IDEs
+/.idea/
+/*.iml
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Dependencias
+/.mvn/
+*.jar
+*.war
+*.ear
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Archivos del sistema
+.DS_Store
+Thumbs.db
 
-### VS Code ###
-.vscode/
+# Credenciales y configuraciones locales
+application.properties
+application.yml
+.env
+
+# Archivos de logs
+/logs/
+*.log
+
